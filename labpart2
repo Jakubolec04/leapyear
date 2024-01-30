@@ -1,0 +1,19 @@
+
+
+
+num = int(input('Enter an integer:'))
+
+def count_digits(number):
+    digit_count = 0
+    
+    if number == 0:
+        
+        return 1
+        
+    while number != 0:
+        number //= 10
+        digit_count += 1
+        
+    return digit_count
+    
+print(count_digits(num))
