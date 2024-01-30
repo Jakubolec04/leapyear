@@ -1,6 +1,6 @@
 
 
-year1= int(input('Enter a year:'))
+year= int(input('Enter a year:'))
 
 def is_leap_year(year):
     if year % 4 == 0:
@@ -14,4 +14,4 @@ def is_leap_year(year):
     else:
         return False
 
-print(is_leap_year(year1))
+print(is_leap_year(year))
